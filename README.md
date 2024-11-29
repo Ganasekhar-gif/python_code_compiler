@@ -1,16 +1,31 @@
-## Python Code Compiler
+# Python Code Executor
 
-A new Flutter project.
+A Flutter-based mobile and web application that allows users to execute Python code via a backend API and view the results in a user-friendly interface.
+
+## Features
+
+- **Code Execution**: Enter Python code, send it to a server for execution, and view the output.
+- **Real-time Feedback**: View execution results or errors immediately.
+- **Modern UI**: Clean, responsive design for both mobile and web platforms.
+- **Lightweight Backend Integration**: Communicates with a Python backend using an HTTP API.
+
+## Screenshots
+
+![App Home Screen]()
+
+## Requirements
+
+- **Flutter**: Version 3.0 or higher
+- **Backend API**: A Python server with an endpoint to execute Python code (see below for setup instructions).
+- **Development Tools**:
+  - Android Studio or Visual Studio Code
+  - Dart SDK
+- **Devices**: Supports Android, iOS, and Web.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Clone the Repository
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/yourusername/python-code-executor.git
+cd python-code-executor
